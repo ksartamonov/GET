@@ -79,7 +79,7 @@ try:
 		GPIO.output(LEDS, 0)
 except KeyboardInterrupt:
 	print("\n############################################")
-	print("# Программа была остановлена пользователем #")
+	print("# The program is stopped by the user! #")
 	print("############################################\n")
 	exit()
 finally:

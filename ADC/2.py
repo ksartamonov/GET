@@ -56,7 +56,7 @@ try:
 		print("Digital value: ", num, ", Analog value: ", transfer(num))
 except KeyboardInterrupt:
 	print("\n############################################")
-	print("# Программа была остановлена пользователем #")
+	print("# The program is stopped by the user! #")
 	print("############################################\n")
 	exit()
 finally:
